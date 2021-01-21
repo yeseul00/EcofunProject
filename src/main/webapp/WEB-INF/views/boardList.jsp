@@ -2,14 +2,14 @@
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-
+ 
 <%
 	String memId = (String) session.getAttribute("memId");
 %>
 
 <div class="container" id="container">
 	<!-- Content-Header (게시판) -->
-	<div class="row">
+	<div class="row"> 
 		<h5>| 게시판</h5>
 	</div>
 	<hr>
